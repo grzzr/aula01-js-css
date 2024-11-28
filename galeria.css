@@ -1,0 +1,29 @@
+#galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+article {    
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width:150px;
+    background-color: aqua;
+}
+
+figure {
+    background-color: rgb(180,180,180);   
+    border-style: dashed;
+    width: 40%;    
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    background-color:aquamarine;
+}
